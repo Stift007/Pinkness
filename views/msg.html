@@ -1,0 +1,46 @@
+<h1>{{msg.user.display_name}}<font style="color: lightslategray; font-size: small;">@{{msg.user.name}}</font></h1>
+<small><a href="{{msg.link}}"> {{msg.id}} / {{msg.date.strftime("%Y-%m-%d %H:%M")}}</a></small>
+% if msg.reply_to:
+    <a href="/@/{{msg.reply_to.user.name}}">Replying to <b>@{{msg.reply_to.user.name}}</b></a>
+%end
+%if msg.deleted_on:
+[<i>Removed</i>]
+
+%else:   
+    %settings = json.loads(user.settings)
+    %import profanity
+    %import re
+    %import requests
+    %print(settings)
+
+    %URL_REGEX = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))"
+    %if re.match(URL_REGEX, msg.message ) and settings["embed_links"]:
+        %regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))"
+        %print("foo")
+        %url = re.findall(regex,msg.message)   
+        %addrto = url[0][0]
+        %print(addrto)
+        %blob = requests.get(addrto)
+        %print(blob.status_code)
+        %if "video" in blob.headers["content-type"]:
+            %print("Video")
+            <video controls width="512px" height="auto">
+                <source  src="{{addrto}}" type="{{blob.headers['content-type']}}">
+                (Cannot play Video)
+            </video>
+        %elif "image"  in blob.headers["content-type"]:
+            <img src="{{addrto}}" width="256px" height="auto">
+        %end
+    %end
+    %if settings.get("censor_profanity") or settings.get("censor_profanities"):
+        <p>{{profanity.censor_profanity(msg.message)}}</p>
+    %else:
+        <p>{{msg.message}}</p>
+    %end
+    % if user==msg.user and not "deleting" in locals():
+        {{!msg.delete_link()}}
+    %end
+        <!-- %end -->
+
+%end
+<hr>

@@ -1,0 +1,9 @@
+
+%include navbar.html
+<div class="main">
+    % deleting = True
+    <h1>Confirm to delete this Message:</h1>
+    %include msg.html
+    {{!msg.confirm_delete()}}
+    <hr>
+</div>

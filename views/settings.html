@@ -1,0 +1,17 @@
+%include navbar.html
+
+<div class="main">
+    <form method="post">
+        <label for="censor_prf">Censor Profanities</label>
+        <input type="checkbox" id="censor_prf" checked value="1" name="censor_prf">
+        
+        <label for="display_name">Display-Name</label>
+
+        <input type="text" value="{{user.display_name}}" name="display_name" id="display_name">
+        
+        <label for="render_vd">Automatically embed Images/Videos<small>Disabling this will improve Performance</small></label>
+        <input type="checkbox" id="render_vd" checked value="1" name="render_links">
+        
+        <input type="submit">
+    </form>
+</div>

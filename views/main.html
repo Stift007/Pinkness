@@ -1,0 +1,22 @@
+%include navbar.html
+<div class="main">
+%if not user:
+    <a href="/login"><button>Log in!</button></a>
+
+    %else:
+    <h2>Nice to see you, {{user.name}}!</h2>
+    %include post_form.html
+
+    %end
+
+
+
+    % for msg in messages:
+    %include msg.html
+    % replies = msg.replies().count()
+    %if replies:
+    <a href="{{msg.link}}">({{replies}} replies)</a>
+    %end
+    <hr>
+    % end
+</div>
