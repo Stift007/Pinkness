@@ -1,0 +1,319 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# �Make�-Datenbank; erstellt am: Fri Jul 22 01:31:12 2022
+
+# Variablen
+
+# automatisch
+<D = $(patsubst %/,%,$(dir $<))
+# automatisch
+?F = $(notdir $?)
+# Umgebung
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# Makefile
+MAKEFLAGS = Rrqp
+# automatisch
+?D = $(patsubst %/,%,$(dir $?))
+# automatisch
+@D = $(patsubst %/,%,$(dir $@))
+# Umgebung
+HOMEDRIVE = C:
+# automatisch
+@F = $(notdir $@)
+# automatisch
+^D = $(patsubst %/,%,$(dir $^))
+# Makefile
+CURDIR := c:/Users/clyde/Documents/apps/Pinkness
+# Standard
+SHELL := sh.exe
+# Umgebung
+WINDIR = C:\windows
+# Umgebung
+VSCODE_NLS_CONFIG = {"locale":"de","availableLanguages":{},"_languagePackSupport":true}
+# Umgebung
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# Umgebung
+ONEDRIVE = C:\Users\clyde\OneDrive
+# Umgebung
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# Makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# Umgebung
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# Umgebung
+TMP = C:\Users\clyde\AppData\Local\Temp
+# Umgebung
+PROGRAMW6432 = C:\Program Files
+# Umgebung
+PROGRAMDATA = C:\ProgramData
+# Umgebung
+VSCODE_CWD = C:\Users\clyde\Documents\apps\Pinkness
+# Umgebung
+PATH = C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\ffmpeg\bin;c:\page;C:\Program Files\UniConvertor-2.0rc5\;C:\Program Files (x86)\sbt\bin;C:\MinGW\bin;C:\Program Files (x86)\GnuWin32\bin;C:\ProgramData\chocolatey\bin;C:\Users\clyde\AppData\Local\activestate\cache\bin;C:\Users\clyde\AppData\Roaming\ActiveState\bin;C:\Users\clyde\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\clyde\AppData\Local\Programs\Python\Python38\;C:\Users\clyde\AppData\Local\Microsoft\WindowsApps;C:\Users\clyde\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\clyde\AppData\Local\ 
+atom\bin;C:\Users\clyde\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GitHub\;C:\Users\clyde\AppData\Local\Coursier\data\bin
+# Umgebung
+ONLINESERVICES = Online Services
+# Umgebung
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# Umgebung
+CHOCOLATEYLASTPATHUPDATE = 132974639721172303
+# Umgebung
+PROCESSOR_ARCHITECTURE = x86
+# Umgebung
+USERPROFILE = C:\Users\clyde
+# Umgebung
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# Umgebung
+ALLUSERSPROFILE = C:\ProgramData
+# Umgebung
+NUMBER_OF_PROCESSORS = 8
+# Umgebung
+ELECTRON_RUN_AS_NODE = 1
+# Standard
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatisch
+%F = $(notdir $%)
+# Umgebung
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11328_JZDGIQSPDJOITNHX
+# Umgebung
+COMPUTERNAME = LAPTOP-RQ4QRGF0
+# Umgebung
+PROGRAMFILES = C:\Program Files (x86)
+# Umgebung
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# Umgebung
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# Umgebung
+USERNAME = clyde
+# Umgebung
+PUBLIC = C:\Users\Public
+# Umgebung
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# Umgebung
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# Umgebung
+VSCODE_CLI = 1
+# Umgebung
+VSCODE_CODE_CACHE_PATH = C:\Users\clyde\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# Umgebung
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# Umgebung
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# Umgebung
+LOGONSERVER = \\LAPTOP-RQ4QRGF0
+# Umgebung
+ONEDRIVECONSUMER = C:\Users\clyde\OneDrive
+# Umgebung
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# Umgebung
+USERDOMAIN = LAPTOP-RQ4QRGF0
+# Standard
+MAKE = $(MAKE_COMMAND)
+# Standard
+MAKECMDGOALS := all
+# Umgebung
+SBT_HOME = C:\Program Files (x86)\sbt\
+# Standard
+MAKE_VERSION := 3.81
+# Makefile
+.DEFAULT_GOAL := clean
+# Umgebung
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatisch
+%D = $(patsubst %/,%,$(dir $%))
+# Umgebung
+LOCALAPPDATA = C:\Users\clyde\AppData\Local
+# Umgebung
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+# Standard
+MAKE_COMMAND := make.exe
+# Umgebung
+PROCESSOR_ARCHITEW6432 = AMD64
+# Standard
+.VARIABLES := 
+# automatisch
+*F = $(notdir $*)
+# Umgebung
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+# Umgebung
+OS = Windows_NT
+# Umgebung
+VSCODE_IPC_HOOK = \\.\pipe\75c77d3d63189cc1e8cdb4ad9f1ba290-1.69.1-main-sock
+# Umgebung
+HOMEPATH = \Users\clyde
+# Umgebung
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# Umgebung
+PROMPT = $P$G
+# Umgebung
+MFLAGS = -Rrqp
+# automatisch
+*D = $(patsubst %/,%,$(dir $*))
+# Umgebung
+REGIONCODE = EMEA
+# Umgebung
+SYSTEMROOT = C:\windows
+# automatisch
++D = $(patsubst %/,%,$(dir $+))
+# Umgebung
+PLATFORMCODE = KV
+# automatisch
++F = $(notdir $+)
+# Umgebung
+APPDATA = C:\Users\clyde\AppData\Roaming
+# Umgebung
+TEMP = C:\Users\clyde\AppData\Local\Temp
+# Umgebung
+COMSPEC = C:\windows\system32\cmd.exe
+# Standard
+MAKEFILES := 
+# automatisch
+<F = $(notdir $<)
+# Umgebung
+LC_ALL = C
+# Makefile (from `makefile', line 1)
+exec = run.py
+# automatisch
+^F = $(notdir $^)
+# Standard
+SUFFIXES := 
+# Umgebung
+SYSTEMDRIVE = C:
+# Umgebung
+SESSIONNAME = Console
+# Umgebung
+PROCESSOR_REVISION = 6001
+# Umgebung
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
+# Umgebung
+MAKELEVEL := 0
+# Umgebung
+LANG = C
+# Umgebung
+PROCESSOR_LEVEL = 23
+# Umgebung
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# Umgebung
+VSCODE_PID = 11328
+# Umgebung
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-RQ4QRGF0
+# variable set hash-table stats:
+# Load=96/1024=9%, Rehash=0, Collisions=9/116=8%
+
+# Pattern-specific Variable Values
+
+# Keine musterspezifischen Variablenwerte.
+
+# Verzeichnisse
+
+# c:\page: Konnte den Status nicht feststellen.
+# C:\Program Files\heroku\bin (Schl�ssel (key) C:/Program Files/heroku/bin,  letzte �nderung (mtime) 1634139636): 4 Dateien, keine Unm�glichkeiten.
+# C:\Program Files\Common Files\Oracle\Java\javapath (Schl�ssel (key) C:/Program Files/Common Files/Oracle/Java/javapath,  letzte �nderung (mtime) 1630162401): 6 Dateien, keine Unm�glichkeiten.
+# C:\windows\System32\WindowsPowerShell\v1.0\ (Schl�ssel (key) C:/windows/System32/WindowsPowerShell/v1.0/,  letzte �nderung (mtime) 1633161370): 31 Dateien, keine Unm�glichkeiten.
+# C:\windows\System32\Wbem (Schl�ssel (key) C:/windows/System32/Wbem,  letzte �nderung (mtime) 1657745276): 154 Dateien, keine Unm�glichkeiten.
+# . (Schl�ssel (key) c:/Users/clyde/Documents/apps/Pinkness,  letzte �nderung (mtime) 1658446269): 17 Dateien, keine Unm�glichkeiten.
+# C:\ProgramData\chocolatey\bin (Schl�ssel (key) C:/ProgramData/chocolatey/bin,  letzte �nderung (mtime) 1652990372): 11 Dateien, keine Unm�glichkeiten.
+# C:\ffmpeg\bin (Schl�ssel (key) C:/ffmpeg/bin,  letzte �nderung (mtime) 1631986279): 5 Dateien, keine Unm�glichkeiten.
+# C:\Users\clyde\AppData\Local\GitHubDesktop\bin (Schl�ssel (key) C:/Users/clyde/AppData/Local/GitHubDesktop/bin,  letzte �nderung (mtime) 1636663784): 4 Dateien, keine Unm�glichkeiten.
+# C:\Program Files\nodejs\ (Schl�ssel (key) C:/Program Files/nodejs/,  letzte �nderung (mtime) 1630094961): 11 Dateien, keine Unm�glichkeiten.
+# C:\Program Files (x86)\sbt\bin (Schl�ssel (key) C:/Program Files (x86)/sbt/bin,  letzte �nderung (mtime) 1650377390): 6 Dateien, keine Unm�glichkeiten.
+# C:\Users\clyde\AppData\Local\Microsoft\WindowsApps (Schl�ssel (key) C:/Users/clyde/AppData/Local/Microsoft/WindowsApps,  letzte �nderung (mtime) 1658356263): 40 Dateien, keine Unm�glichkeiten.
+# C:\Users\clyde\AppData\Local\Programs\Python\Python38\Scripts\ (Schl�ssel (key) C:/Users/clyde/AppData/Local/Programs/Python/Python38/Scripts/,  letzte �nderung (mtime) 1658353273): 173 Dateien, keine Unm�glichkeiten.
+# C:\Users\clyde\AppData\Local\Coursier\data\bin (Schl�ssel (key) C:/Users/clyde/AppData/Local/Coursier/data/bin,  letzte �nderung (mtime) 1650366294): 11 Dateien, keine Unm�glichkeiten.
+# C:\MinGW\bin (Schl�ssel (key) C:/MinGW/bin,  letzte �nderung (mtime) 1652708540): 144 Dateien, keine Unm�glichkeiten.
+# C:\Program Files (x86)\GitHub\ (Schl�ssel (key) C:/Program Files (x86)/GitHub/,  letzte �nderung (mtime) 1642427338): 3 Dateien, keine Unm�glichkeiten.
+# C:\Users\clyde\AppData\Local\activestate\cache\bin (Schl�ssel (key) C:/Users/clyde/AppData/Local/activestate/cache/bin,  letzte �nderung (mtime) 1637519194): 2 Dateien, keine Unm�glichkeiten.
+# C:\windows\System32\OpenSSH\: Konnte den Status nicht feststellen.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (Schl�ssel (key) C:/Program Files (x86)/Common Files/Oracle/Java/javapath,  letzte �nderung (mtime) 1650555860): 5 Dateien, keine Unm�glichkeiten.
+# C:\windows (Schl�ssel (key) C:/windows,  letzte �nderung (mtime) 1642611972): 136 Dateien, keine Unm�glichkeiten.
+# C:\Program Files\UniConvertor-2.0rc5\ (Schl�ssel (key) C:/Program Files/UniConvertor-2.0rc5/,  letzte �nderung (mtime) 1649929309): 9 Dateien, keine Unm�glichkeiten.
+# C:\Users\clyde\AppData\Local\atom\bin (Schl�ssel (key) C:/Users/clyde/AppData/Local/atom/bin,  letzte �nderung (mtime) 1635253377): 6 Dateien, keine Unm�glichkeiten.
+# C:\Users\clyde\AppData\Roaming\ActiveState\bin (Schl�ssel (key) C:/Users/clyde/AppData/Roaming/ActiveState/bin,  letzte �nderung (mtime) 1637519190): 7 Dateien, keine Unm�glichkeiten.
+# C:\Program Files\Git\cmd (Schl�ssel (key) C:/Program Files/Git/cmd,  letzte �nderung (mtime) 1630856964): 8 Dateien, keine Unm�glichkeiten.
+# C:\windows\system32 (Schl�ssel (key) C:/windows/system32,  letzte �nderung (mtime) 1658322276): 2913 Dateien, keine Unm�glichkeiten.
+# C:\Program Files (x86)\VMware\VMware Player\bin\ (Schl�ssel (key) C:/Program Files (x86)/VMware/VMware Player/bin/,  letzte �nderung (mtime) 1647824129): 4 Dateien, keine Unm�glichkeiten.
+# C:\Users\clyde\AppData\Local\Programs\Python\Python38\ (Schl�ssel (key) C:/Users/clyde/AppData/Local/Programs/Python/Python38/,  letzte �nderung (mtime) 1638025423): 21 Dateien, keine Unm�glichkeiten.
+# C:\Users\clyde\AppData\Local\Programs\Microsoft VS Code\bin (Schl�ssel (key) C:/Users/clyde/AppData/Local/Programs/Microsoft VS Code/bin,  letzte �nderung (mtime) 1657813859): 4 Dateien, keine Unm�glichkeiten.
+# C:\Program Files (x86)\GnuWin32\bin (Schl�ssel (key) C:/Program Files (x86)/GnuWin32/bin,  letzte �nderung (mtime) 1652814501): 5 Dateien, keine Unm�glichkeiten.
+
+# 3740 Dateien, keine Unm�glichkeiten in 29 Verzeichnissen.
+
+# Implicit Rules
+
+# Keine impliziten Regeln vorhanden.
+
+# Dateien
+
+# Dies ist kein Ziel:
+all:
+#  Kommandozeilen-Ziel (target).
+#  Suche nach impliziten Regeln wurde durchgef�hrt.
+#  Die Datei existiert nicht.
+#  Datei wurde nicht aktualisiert.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Dies ist kein Ziel:
+.DEFAULT:
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Zeit der letzten �nderung wurde nicht �berpr�ft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+makefile:
+#  Suche nach impliziten Regeln wurde durchgef�hrt.
+#  Zuletzt ge�ndert 2022-07-21 12:51:14
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Dies ist kein Ziel:
+.SUFFIXES:
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Zeit der letzten �nderung wurde nicht �berpr�ft.
+#  Datei wurde nicht aktualisiert.
+
+run:
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Zeit der letzten �nderung wurde nicht �berpr�ft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuf�hrende Kommandos (aus �makefile�, Zeile 7):
+	py run.py
+	
+
+clean:
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Zeit der letzten �nderung wurde nicht �berpr�ft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuf�hrende Kommandos (aus �makefile�, Zeile 4):
+	py ini 
+make.exe: *** Keine Regel, um �all� zu erstellen.  Schluss.
+
+tdb.py
+	
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/17=0%
+# VPATH-Suchpfade
+
+# Keine �vpath�-Suchpfade.
+
+# Kein allgemeiner Suchpfad (Variable �VPATH�).
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# �Make�-Datenbank; beendet am: Fri Jul 22 01:31:12 2022
+
+ 

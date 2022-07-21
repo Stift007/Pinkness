@@ -12,16 +12,6 @@ with contextlib.redirect_stderr(stdout):
     db.create_tables([User, Msg, Token])
     
 
-    users =  [{
-        "name":"StormedJane",
-        "display_name":"StormedJane",
-        "password":"mfnmO.1858"
-    },
-    {
-        "name":"EIJwasofoi",
-        "password":"iorndfgferhg098ehjr9oh90",
-        "display_name":"EIJwasofoi"
-    }]
 
     msgs = [{
         "user":"StormedJane", "message":"Bro wtf this works lmao",
@@ -61,9 +51,9 @@ with contextlib.redirect_stderr(stdout):
 
         return new_msg
 
-    for user in users:
-        new_user = User.create(**user)
-        new_user.set_password(user.get("password", "1234"))
+    # for user in users:
+        # new_user = User.create(**user)
+        # new_user.set_password(user.get("password", "1234"))
 
     for msg in msgs:
         new_msg = make_message(msg)
